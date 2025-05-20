@@ -4,6 +4,7 @@ import pandas as pd
 df_load  = pd.read_csv(r"../../data/raw/Load_history.csv")
 
 df_load.head()
+
 # %%
 
 # Melt the DataFrame to long format
