@@ -340,7 +340,7 @@ def evaluate_model(
     plt.tight_layout()
     plt.savefig(f"figures/{model_name}_actual_vs_predicted.png")
     logging.info(f"Saved actual vs. predicted plot to {model_name}_actual_vs_predicted.png")
-    # plt.show() # Uncomment if running interactively and want to display plots
+    plt.show() # Uncomment if running interactively and want to display plots
 
     return metrics
 
